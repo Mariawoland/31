@@ -1,0 +1,291 @@
+body {
+    font-family: "Poppins";
+    background: #F2F2F2;
+}
+
+#small-resolution {
+    display: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0 !important;
+}
+
+.mySwiper {
+    width: 100%;
+}
+
+
+.text-001 {
+    padding: 0 7px;
+}
+
+#cardbox1,
+#cardbox2,
+#cardbox3,
+#cardbox4 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.setting-001 {
+    width: 360px;
+    box-shadow: 0px 5px 10px 0px #0000000D;
+    height: 580px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+}
+
+.setting-002 {
+    width: 100%;
+    position: absolute;
+}
+
+.setting-003 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1 !important;
+}
+
+.greenText {
+    color: #4CD964;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.setting-004 {
+    padding: 30px 30px 0;
+    height: 260px;
+}
+
+.text-002 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -1px;
+    color: #1B1B1B;
+}
+
+.text-003 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+}
+
+.text-004 {
+    color: #9B9B9B;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-005 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.setting-005 {
+    color: #ccc;
+}
+
+.setting-006 {
+    color: #fff;
+    z-index: 10 !important;
+}
+
+.setting-007 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 60px;
+}
+
+.text-006 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #9B9B9B;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.text-007 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.text-008 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.setting-010 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.text-010 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.text-011 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.setting-011 {
+    display: flex;
+    gap: 60px;
+}
+
+.setting-012 {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    width: 250px;
+}
+
+@media (max-width: 1040px) {
+
+    .setting-001 {
+        width: 250px;
+        height: 480px !important;
+        margin: 0 10px;
+    }
+
+    .greenText {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .text-002 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .text-003 {
+        font-size: 28px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .text-004,
+    .text-005 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .setting-010 {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .text-010 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .setting-011 {
+        gap: 10px !important;
+        justify-content: center;
+    }
+
+    .setting-012 {
+        gap: 10px !important;
+        width: auto;
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width: 766px) {
+    #big-resolution {
+        display: none;
+    }
+
+    #small-resolution {
+        display: block;
+    }
+
+    .setting-001 {
+        margin: auto;
+        width: 350px;
+        height: 520px !important;
+        margin-bottom: 100px;
+    }
+
+    .setting-004 {
+        height: auto;
+    }
+
+    .text-002 {
+        font-size: 24px;
+    }
+
+    .text-003 {
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+
+    .text-004,
+    .text-005 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .img-001 {
+        width: 18px;
+    }
+
+    .img-002 {
+        width: 100px;
+    }
+
+    .text-001 {
+        font-size: 12px;
+    }
+
+    .img-003 {
+        width: 30px;
+    }
+}
